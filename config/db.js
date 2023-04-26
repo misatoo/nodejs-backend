@@ -6,11 +6,11 @@ let REDIS_CONFIG; // redis
 if (env === "development") {
   // mysql
   MYSQL_CONFIG = {
-    host: "localhost",
+    host: "10.211.55.4",
     user: "root",
-    password: "Yubanmeiqin00",
+    password: "Yubanmeiqin0)",
     port: "3306",
-    database: "myBlog",
+    database: "test",
   };
   // redis
   REDIS_CONFIG = {
@@ -20,11 +20,11 @@ if (env === "development") {
 } else if (env === "production") {
   // mysql
   MYSQL_CONFIG = {
-    host: "localhost",
+    host: "10.211.55.4",
     user: "root",
-    password: "Yubanmeiqin00",
+    password: "Yubanmeiqin0)",
     port: "3306",
-    database: "myBlog",
+    database: "test",
   };
   // redis
   REDIS_CONFIG = {
