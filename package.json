@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon ./bin/www",
-    "prod": "cross-env NODE_ENV=production pm2 start ./bin/www"
+    "prod": "cross-env NODE_ENV=production nodemon ./bin/www",
+    "prod-pm2": "cross-env NODE_ENV=production pm2 start pm2.config.json --env production"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
